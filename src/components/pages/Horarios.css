@@ -1,0 +1,33 @@
+#horariogrande {
+    width:600px;
+    border: 5px solid black;
+}
+
+#horariodiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.tarifagrande {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+@media screen and (max-width: 700px) {
+    #horariogrande {
+        width:100%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #horariogrande {
+        width:100%;
+        margin: 20px;
+    }
+}

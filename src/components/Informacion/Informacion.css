@@ -1,0 +1,163 @@
+.nuestros-programas {
+  text-align: center;
+  background: rgba(128, 128, 128, 0.233);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.nuestros-programas h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.programas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.programa {
+  margin-top: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.programa img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.programa img:hover {
+  filter: opacity(0.5);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: 0.4s;
+}
+
+.programa h3 {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.hover-img {
+  background-color: transparent;
+  color: #fff;
+  display: inline-block;
+  margin: 15px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hover-img * {
+  box-sizing: border-box;
+  transition: all 0.7s ease;
+}
+
+.hover-img:before,
+.hover-img:after {
+  background-color: rgba(0, 0, 0, 0.219);
+  border-top: 10px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 10px solid rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+  transform: scaleY(1.2);
+}
+
+.hover-img img {
+  vertical-align: top;
+  max-width: 100%;
+  max-height: 100%;
+  backface-visibility: hidden;
+}
+
+.hover-img figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hover-img figcaption p {
+  font-size: 25px;
+  text-transform: none;
+  line-height: 35px;
+}
+
+.hover-img:hover:before,
+.hover-img:hover:after {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.hover-img:hover > img {
+  opacity: 0.7;
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+
+.hover-img:hover figcaption {
+  opacity: 1;
+}
+
+.titulo-programa {
+  font-size: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1060px) {
+  .programas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .programa {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .programa h3 {
+    font-size: 18px;
+  }
+
+  .hover-img {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .hover-img figcaption {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,40 @@
+@import url("./components/App.css");
+@import url("./components/Header/Header.css");
+@import url("./components/Informacion/Informacion.css");
+@import url("./components/Titulo/Titulo");
+@import url("./components/Mapa/Mapa");
+@import url("./components/Aprende/Aprende");
+@import url("./components/Testimonios/Testimonios");
+@import url("./components/Footer/Footer");
+@import url("./components/pages/Horarios.css");
+@import url("./components/pages/Contact.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  outline: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+

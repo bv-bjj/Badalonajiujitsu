@@ -1,0 +1,75 @@
+#logo4 {
+  margin-right: 20px;
+}
+
+#navbar {
+  background-color: black;
+  color: white;
+}
+
+#linkinicio {
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+#linkinicio:hover {
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.141);
+}
+
+#linksobre {
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+#linksobre:hover {
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.141);
+}
+
+#linkabout {
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+#linkabout:hover {
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.141);
+}
+
+#navsocial {
+  display: flex;
+  flex-direction: row;
+}
+
+.facebook {
+  margin: 10px;
+}
+
+.instagram {
+  margin: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  .facebook {
+    margin: 8px;
+  }
+  .instagram {
+    margin: 8px;
+  }
+
+  #linkinicio:hover {
+    background-color: rgba(206, 7, 7, 0.473);
+    transition: 0.7s;
+  }
+
+  #linksobre:hover {
+    background-color: rgba(206, 7, 7, 0.473);
+    transition: 0.7s;
+  }
+
+  #linkabout:hover {
+    background-color: rgba(206, 7, 7, 0.473);
+    transition: 0.7s;
+  }
+}

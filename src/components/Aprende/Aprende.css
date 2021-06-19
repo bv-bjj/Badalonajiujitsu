@@ -1,0 +1,123 @@
+.aprende-jiujitsu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 3rem;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 35px;
+  margin-bottom: 3rem;
+}
+
+.aprende {
+  background: rgba(128, 128, 128, 0.233);
+}
+
+.logo3 {
+  width: 80px;
+}
+
+.marketing {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media img {
+  width: 2rem;
+  margin-top: 15px;
+  padding: 1rem;
+}
+
+.social-media h3 {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+  text-shadow: 6px 0px 6px rgb(247, 247, 247);
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 30px;
+  font-size: 20px;
+
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.informacion h3 {
+  font-size: 25px;
+  text-align: center;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.informacion li {
+  list-style-type: disc;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.informacion ul {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1060px) {
+  .horarios {
+    margin-top: 2rem;
+  }
+
+  .horarios p {
+    font-size: 18px;
+    line-height: 50px;
+  }
+
+  .linea {
+    border: 1px solid red;
+    width: 50px;
+    margin-top: 2rem;
+  }
+
+  .localizacion p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .aprende-jiujitsu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .marketing {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .informacion {
+    font-size: 16px;
+  }
+
+  .social-media {
+    align-items: center;
+  }
+
+  .social-media img {
+    align-items: center;
+    justify-content: space-around;
+  }
+}

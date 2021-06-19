@@ -1,0 +1,131 @@
+.info-mapa-horarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 4rem;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+ 
+  
+  .localizacion {
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 25px;
+  
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .localizacion h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  
+  
+  .info-mapa h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 25px;
+  }
+  
+  .l10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .l2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  .l10 img {
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+    
+  }
+  
+  .l2 img {
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+  }
+  
+  .metro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .metro h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .llegar {
+    font-weight: bold;
+      font-size: 25px;
+  }
+  
+  .bus {
+    padding-top: 20px;
+  }
+
+  @media screen and (max-width: 1060px) {
+    .info-mapa-horarios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+    
+      
+
+      .info-mapa h3 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      .info-mapa h2 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .mapa iframe {
+        margin-top: 2rem;
+      }      
+         
+       .llegar {
+        font-weight: bold;
+      }
+    
+      
+  }
+  @media screen and (max-width: 900px) {
+    .mapa iframe {
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 15px;
+    }
+  }
+

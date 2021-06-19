@@ -1,0 +1,23 @@
+#tituloProgramas {
+  margin: 20px;
+}
+
+#tituloProgramas h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+#containerGrande {
+    font-family: 'Roboto', sans-serif;
+}
+
+#font {
+  font-size: 15px;
+}
+
+#font2 {
+  font-size: 15px;
+  font-weight: 700;
+}

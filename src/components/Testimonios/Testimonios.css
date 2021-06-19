@@ -1,0 +1,96 @@
+.titulo-alumnos {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.testimonios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin-bottom: 1rem;
+}
+
+.testimonio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.testimonio-foto img {
+  width: 150px;
+  border-radius: 50%;
+  filter: drop-shadow(5px 5px 10px #444);
+  margin: 20px;
+}
+
+.testimonio-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+
+.testimonio-texto h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.testimonio-texto p {
+  text-align: center;
+  font-style: italic;
+  line-height: 33px;
+  font-size: 18px;
+}
+
+.testimonios2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1060px) {
+  .titulo-alumnos {
+    font-size: 25px;
+    margin-top: 3rem;
+  }
+
+  .testimonios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    padding: 20px;
+  }
+
+  .testimonio {
+    margin-bottom: 1rem;
+  }
+
+  .testimonio-foto img {
+    width: 100px;
+  }
+
+  .testimonio-texto {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .testimonio-texto h3 {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
